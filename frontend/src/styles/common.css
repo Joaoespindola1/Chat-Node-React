@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: Montserrat;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+body {
+  font-size: 16px;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  padding: 1rem;
+  position: relative;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 25vw;
+  transform: translate(-50%, -50%);
+}
+
+.chat {
+  color: #000000;
+}
+
+.cardHeader {
+  background: #000000;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: inline-block;
+  top: -1rem;
+  left: -0.75rem;
+}
+
+.cardBody {
+  margin-top: 2rem;
+}
+
+.inputGroup {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+input {
+  border: none;
+  padding: 0.5rem 0.1rem;
+  width: 100%;
+  border-radius: 2px;
+  color: #000000;
+  border-bottom: 1px solid #eee;
+  transition: all 0.5s;
+}
+
+input:focus {
+  border-bottom: 1px solid #ccc;
+}
+
+a {
+  color: #ffffff;
+  background: #000000;
+  border: none;
+  border-radius: 5px;
+  width: 60%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+button {
+  background: #000000;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.chatrooms {
+  margin-top: 1rem;
+}
+
+.chatroom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.join {
+  background: #000000;
+  padding: 0.35rem 0.5rem;
+  border-radius: 3px;
+}
+
